@@ -24,7 +24,7 @@ jobs:
       with:
         args: "format=svg outputDir=./src/"
       env:
-        FIGMA_FILE_URL: 'https://www.figma.com/file/nkkRbhRaUay1C7YPLcIqTq/%EC%BC%80%EC%96%B4%EB%8B%A5(CPR)-%2F-%EC%95%B1?node-id=6972-22887&node-type=canvas&t=VHYxY5DWr3fS9jfS-0'
+        FIGMA_FILE_URL: 'https://www.figma.com/design/nkkRbhRaUay1C7YPLcIqTq/%EC%BC%80%EC%96%B4%EB%8B%A5(CPR)-%2F-%EC%95%B1?node-id=2993-708&t=VHYxY5DWr3fS9jfS-4'
         FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
     - run: yarn generate
     - run: yarn build:bundle
