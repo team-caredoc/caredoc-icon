@@ -36,9 +36,10 @@
   "license": "MIT",
   "dependencies": {
     "normalize.css": "^8.0.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "styled-components": "^5.1.1"
+    "react": "^18",
+    "react-dom": "^18",
+    "styled-components": "^5.1.1",
+    "sonner": "^1.5.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.5",
@@ -58,6 +59,7 @@
     "got": "^11.5.1",
     "p-queue": "2.4.2",
     "prettier-eslint": "^9.0.0",
+    "prop-types": "^15.8.1",
     "rollup": "^1.19.4",
     "rollup-plugin-babel": "^4.3.3",
     "rollup-plugin-copy": "^3.3.0",
