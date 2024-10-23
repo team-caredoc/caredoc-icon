@@ -24,7 +24,7 @@ jobs:
       with:
         args: "format=svg outputDir=./src/"
       env:
-        FIGMA_FILE_URL: 'figma.com/file/gTaV6nOPiDx0F3c7WHPME3/juuust-icon'
+        FIGMA_FILE_URL: 'https://www.figma.com/file/93rIt1WzjNnjlGIBRWPa24/DanTest'
         FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
     - run: yarn generate
     - run: yarn build:bundle
